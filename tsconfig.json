@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "target": "ES5",
+        "downlevelIteration": true,
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "composite": true,
+        "incremental": true,
+        "removeComments": true,
+        "isolatedModules": true,
+        "allowJs": true,
+        "checkJs": false,
+        "jsx": "react",
+        "outDir": "lib",
+        "rootDir": "./",
+        "noEmitOnError": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declarationDir": "lib"
+    },
+    "files": [],
+    "include": [],
+    "references": [
+        {
+            "path": "./src/token"
+        }
+    ]
+}
